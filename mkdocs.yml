@@ -1,0 +1,61 @@
+site_name: Fintech
+theme:
+    name: material
+    palette:
+        # primary: custom
+        scheme: default
+        primary: yellow
+        accent: orange
+    font:
+        text: Roboto
+    language: pt-BR
+    repo_url: https://gitlab.com/fga-eps-rmc/fintech_pix/fintech_pix_doc
+    repo_name: Fintech Pix Docs
+    icon:
+        repo: fontawesome/brands/gitlab
+    # logo: assets/logo.png
+    features:
+        - content.code.annotate
+        - content.tabs.link
+        - header.autohide
+        - navigation.instant
+        - navigation.sections
+        - navigation.tabs
+        - navigation.top
+        - navigation.tracking
+
+nav:
+    - Sobre: index.md
+    - Guias:
+        - Guia de Commit: guide/commit_guide.md
+        - Guia de Estilo: guide/style_guide.md
+        - Protótipo: prototype.md
+    - Comunicação:
+        - Rituais da Equipe:  rituals.md
+        # - ATAs de Reuniões:
+        #     - Reunião 1: meetings/meetingNotes1.md
+        - Relatório de Eventos: 
+            - Semana 1: reports/week1.md
+    - Planejamento:
+        - Planejamento: planning.md
+        - Cronograma: schedule.md
+        - Quadro de conhecimento: projectControl/knowledge_board.md
+        - Quadro de disponibilidade: projectControl/schedule_board.md
+    - Planos:
+        - Plano de custos: plans/costs_plan.md
+        - Plano de riscos: plans/risk_plan.md
+    - Definições do Projeto:
+        - Metodologias: projectDescription/index.md
+        - Plano de qualidade: plans/quality_plan.md
+        - Plano de comunicacao: plans/communication_plan.md
+    - Gestão de Projeto:
+        - Modelo de gestão: projectManagment/index.md
+    - Lean Inception:
+        - Dinâmicas: lean/dynamics.md
+        - Lean: lean/index.md
+    - Arquitetura:
+        - Documento de arquitetura: architecture/index.md
+    - Relatório de Encerramento do Projeto: reports/final_report.md
+
+# extra_css:
+#   - stylesheets/extra.css
