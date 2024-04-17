@@ -50,6 +50,7 @@ nav:
         - Plano de comunicacao: plans/communication_plan.md
     - Gestão de Projeto:
         - Modelo de gestão: projectManagment/index.md
+        - EAP: projectManagment/eap.md
     - Lean Inception:
         - Dinâmicas: lean/dynamics.md
         - Lean: lean/index.md
