@@ -9,8 +9,8 @@ theme:
     font:
         text: Roboto
     language: pt-BR
-    repo_url: https://gitlab.com/fga-eps-rmc/fintech_pix/fintech_pix_doc
-    repo_name: Fintech Pix Docs
+    repo_url: https://github.com/CibeleG/EPS-2024.1-Fintech-PIX
+    repo_name: EPS-2024.1-Fintech-PIX
     icon:
         repo: fontawesome/brands/gitlab
     # logo: assets/logo.png
