@@ -45,3 +45,7 @@ Conversão de moeda automática, ativação da funcionalidade por aproximação,
 - Python
 
 - ⁠React Native
+
+## GitHub Pages
+
+A documentação está disponível no GitHub Pages: https://cibeleg.github.io/EPS-2024.1-Fintech-PIX/
