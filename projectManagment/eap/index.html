@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Guia de Commit - Fintech</title>
+        <title>EAP - Fintech</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -33,16 +33,16 @@
                             <li class="navitem">
                                 <a href="../.." class="nav-link">Sobre</a>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Guias <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="./" class="dropdown-item active">Guia de Commit</a>
+    <a href="../../guide/commit_guide/" class="dropdown-item">Guia de Commit</a>
 </li>
                                     
 <li>
-    <a href="../style_guide/" class="dropdown-item">Guia de Estilo</a>
+    <a href="../../guide/style_guide/" class="dropdown-item">Guia de Estilo</a>
 </li>
                                     
 <li>
@@ -120,16 +120,16 @@
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Gestão de Projeto <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../projectManagment/" class="dropdown-item">Modelo de gestão</a>
+    <a href="../" class="dropdown-item">Modelo de gestão</a>
 </li>
                                     
 <li>
-    <a href="../../projectManagment/eap/" class="dropdown-item">EAP</a>
+    <a href="./" class="dropdown-item active">EAP</a>
 </li>
                                 </ul>
                             </li>
@@ -167,12 +167,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../.." class="nav-link">
+                                <a rel="prev" href="../" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../style_guide/" class="nav-link">
+                                <a rel="next" href="../../lean/dynamics/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -194,28 +194,20 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#guia-de-commit" class="nav-link">Guia de commit</a>
+            <li class="nav-item" data-level="1"><a href="#estrutura-analitica-do-projeto-eap" class="nav-link">Estrutura Analítica do Projeto (EAP)</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#introducao" class="nav-link">Introdução</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-level="2"><a href="#grupos" class="nav-link">Grupos</a>
+            <li class="nav-item" data-level="2"><a href="#eap-do-swiftpix" class="nav-link">EAP do SwiftPix</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-level="2"><a href="#mensagem" class="nav-link">Mensagem</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="2"><a href="#exemplos" class="nav-link">Exemplos</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            
             <li class="nav-item" data-level="2"><a href="#historico-de-versao" class="nav-link">Histórico de versão</a>
               <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -223,54 +215,12 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="guia-de-commit">Guia de commit</h2>
-<p>Esse guia tem o objetivo de definir um padrão para os commits no projeto.</p>
-<h3 id="tipos">Tipos</h3>
-<p>Os commits serão separados por funcionalidades, devendo respeitar o formato abaixo:</p>
-<ul>
-<li>
-<p>:bulb: quando adicionar nova funcionalidade</p>
-</li>
-<li>
-<p>:pencil: quando escrever documentação</p>
-</li>
-<li>
-<p>:repeat: quando alguma alteração for feita</p>
-</li>
-<li>
-<p>:racehorse: refatoração ou otimização</p>
-</li>
-<li>
-<p>:bug: quando consertar um bug</p>
-</li>
-<li>
-<p>:fire: quando remover código ou arquivos</p>
-</li>
-</ul>
-<h2 id="grupos">Grupos</h2>
-<p>Commits em grupo devem ter ser adicionado a mensagem do commit:</p>
-<p><em>Co-authored-by: 'user do membro' 'email do membro'</em></p>
-<h2 id="mensagem">Mensagem</h2>
-<p>A mensagem de commit deve ser clara e sucinta, respeitando o formato abaixo:</p>
-<ul>
-<li>
-<p>Escrita em português</p>
-</li>
-<li>
-<p>Verbos no gerúndio</p>
-</li>
-<li>
-<p>Deve possuir um tipo e o objetivo do commit</p>
-</li>
-</ul>
-<h2 id="exemplos">Exemplos</h2>
-<h3 id="commit-de-um-unico-autor">Commit de um único autor</h3>
-<pre><code>:bulb: Adicionando crud de usuário
-</code></pre>
-<h3 id="commit-em-grupo">Commit em grupo</h3>
-<pre><code>:bug: Consertando crud de usuário
-Co-authored-by: CibeleG cibelegoudinho13@gmail.com
-</code></pre>
+<h1 id="estrutura-analitica-do-projeto-eap">Estrutura Analítica do Projeto (EAP)</h1>
+<h2 id="introducao">Introdução</h2>
+<p>A eficiente gestão de projetos é uma habilidade vital na engenharia de software, permitindo a conclusão oportuna e dentro do orçamento. Para os profissionais da área, é um desafio contínuo. Uma ferramenta indispensável para enfrentar esse desafio é a Estrutura Analítica do Projeto, conhecida como EAP.</p>
+<p>Neste texto, vamos explorar o conceito da EAP e sua evolução como um alicerce na gestão de projetos de software. A EAP, com sua abordagem hierárquica de decomposição, proporciona insights valiosos e clareza na identificação e organização de todas as tarefas envolvidas em um projeto.</p>
+<h2 id="eap-do-swiftpix">EAP do SwiftPix</h2>
+<p><img alt="eap 1.0" src="../../assets/projectManagment/eap.png" /></p>
 <h2 id="historico-de-versao">Histórico de versão</h2>
 <table>
 <thead>
@@ -283,10 +233,10 @@ Co-authored-by: CibeleG cibelegoudinho13@gmail.com
 </thead>
 <tbody>
 <tr>
-<td>09/04/2024</td>
+<td>17/04/2024</td>
 <td>1.0</td>
 <td>Criação do Documento</td>
-<td>Cibele Freitas Goudinho</td>
+<td>Guilherme Daniel Fernandes da Silva</td>
 </tr>
 </tbody>
 </table></div>

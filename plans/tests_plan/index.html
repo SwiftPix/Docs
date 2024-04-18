@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Guia de Commit - Fintech</title>
+        <title>Plano de Testes - Fintech</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -33,16 +33,16 @@
                             <li class="navitem">
                                 <a href="../.." class="nav-link">Sobre</a>
                             </li>
-                            <li class="dropdown active">
+                            <li class="dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Guias <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="./" class="dropdown-item active">Guia de Commit</a>
+    <a href="../../guide/commit_guide/" class="dropdown-item">Guia de Commit</a>
 </li>
                                     
 <li>
-    <a href="../style_guide/" class="dropdown-item">Guia de Estilo</a>
+    <a href="../../guide/style_guide/" class="dropdown-item">Guia de Estilo</a>
 </li>
                                     
 <li>
@@ -95,11 +95,11 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../../plans/costs_plan/" class="dropdown-item">Plano de custos</a>
+    <a href="../costs_plan/" class="dropdown-item">Plano de custos</a>
 </li>
                                     
 <li>
-    <a href="../../plans/risk_plan/" class="dropdown-item">Plano de riscos</a>
+    <a href="../risk_plan/" class="dropdown-item">Plano de riscos</a>
 </li>
                                 </ul>
                             </li>
@@ -112,11 +112,11 @@
 </li>
                                     
 <li>
-    <a href="../../plans/quality_plan.md" class="dropdown-item">Plano de qualidade</a>
+    <a href="../quality_plan.md" class="dropdown-item">Plano de qualidade</a>
 </li>
                                     
 <li>
-    <a href="../../plans/communication_plan/" class="dropdown-item">Plano de comunicacao</a>
+    <a href="../communication_plan/" class="dropdown-item">Plano de comunicacao</a>
 </li>
                                 </ul>
                             </li>
@@ -166,16 +166,6 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li class="nav-item">
-                                <a rel="prev" href="../.." class="nav-link">
-                                    <i class="fa fa-arrow-left"></i> Previous
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a rel="next" href="../style_guide/" class="nav-link">
-                                    Next <i class="fa fa-arrow-right"></i>
-                                </a>
-                            </li>
                     </ul>
                 </div>
             </div>
@@ -194,28 +184,44 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="2"><a href="#guia-de-commit" class="nav-link">Guia de commit</a>
+            <li class="nav-item" data-level="1"><a href="#plano-de-testes" class="nav-link">Plano de Testes</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#1-introducao" class="nav-link">1. Introdução</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-level="2"><a href="#grupos" class="nav-link">Grupos</a>
+            <li class="nav-item" data-level="2"><a href="#2-objetivo" class="nav-link">2. Objetivo</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-level="2"><a href="#mensagem" class="nav-link">Mensagem</a>
+            <li class="nav-item" data-level="2"><a href="#3-objetivos-de-qualidade" class="nav-link">3. Objetivos de Qualidade</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-level="2"><a href="#exemplos" class="nav-link">Exemplos</a>
+            <li class="nav-item" data-level="2"><a href="#4-verificacao-e-validacao-vv" class="nav-link">4. Verificação e Validação (V&amp;V)</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            
-            <li class="nav-item" data-level="2"><a href="#historico-de-versao" class="nav-link">Histórico de versão</a>
+            <li class="nav-item" data-level="2"><a href="#5-padroes-e-metricas" class="nav-link">5. Padrões e métricas</a>
               <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#6-testes" class="nav-link">6. Testes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#7-ferramentas" class="nav-link">7. Ferramentas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#8-controle-de-codigo" class="nav-link">8. Controle de código</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#9-historico-de-versao" class="nav-link">9. Histórico de versão</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -223,70 +229,125 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h2 id="guia-de-commit">Guia de commit</h2>
-<p>Esse guia tem o objetivo de definir um padrão para os commits no projeto.</p>
-<h3 id="tipos">Tipos</h3>
-<p>Os commits serão separados por funcionalidades, devendo respeitar o formato abaixo:</p>
+<h1 id="plano-de-testes">Plano de Testes</h1>
+<h2 id="1-introducao">1. Introdução</h2>
+<p>Um dos fundamentos essenciais de um produto reside na qualidade que ele oferece. Nesse contexto, a ISO 9126 estabelece a qualidade como a "totalidade de características e critérios de um produto ou serviço que emprega suas capacidades para satisfazer as necessidades declaradas ou implícitas".</p>
+<p>Por sua vez, a ISO 25010, lançada em 2011 como uma substituição da ISO 9126, estabelece padrões para a qualidade de produtos de software. Essa norma define qualidade como o grau em que um sistema atende às necessidades expressas e não expressas dos stakeholders, resultando na criação de valor.</p>
+<p>A ISO 25010 identifica oito características fundamentais para a qualidade de um produto, que são: adequação funcional, eficiência de desempenho, compatibilidade, usabilidade, confiabilidade, segurança, manutenção e portabilidade.</p>
+<h2 id="2-objetivo">2. Objetivo</h2>
+<p>A elaboração deste plano tem como propósito detalhar as ferramentas a serem empregadas e as métricas a serem analisadas pela equipe, visando estabelecer os padrões de qualidade do produto e embasar as decisões a serem tomadas. Com isso, podemos citar os seguintes objetivos específicos deste documento:</p>
+<ul>
+<li>Definir os objetivos de qualidade;</li>
+<li>Apresentar formas de atingir os objetivos de qualidade;</li>
+<li>Selecionar e coletar métricas de qualidade</li>
+<li>Apresentar a compreensão e a aplicação das métricas para o produto;</li>
+<li>Especificar os procedimentos, técnicas e ferramentas que serão utilizados para a garantia da qualidade do produto.</li>
+</ul>
+<h2 id="3-objetivos-de-qualidade">3. Objetivos de Qualidade</h2>
+<p>No âmbito dos objetivos delineados pela norma ISO 25010:2011, a análise da qualidade do projeto é direcionada a três áreas fundamentais: qualidade interna, qualidade externa e qualidade de uso.</p>
+<p>A avaliação da qualidade interna e externa visa examinar o próprio produto e está centrada em seis características primordiais: funcionalidade, confiabilidade, usabilidade, eficiência, manutenibilidade e portabilidade. Cada uma dessas características engloba diversas subcaracterísticas, as quais se tornam observáveis externamente durante a utilização do software e são influenciadas pelos atributos internos do produto.</p>
+<p>A qualidade de uso, por outro lado,  concentra-se em quatro características principais: eficácia, produtividade, segurança e satisfação. Essas características derivam da combinação das seis características de qualidade (interna e externa) previamente definidas pela norma ISO.</p>
+<p>Durante a análise da qualidade do projeto, são abordados tanto os aspectos internos quanto os externos do software, considerando as seis características de qualidade. Além disso, é avaliada a experiência do usuário final por meio das quatro características específicas de qualidade de uso. Ao adotar essas abordagens complementares, busca-se realizar uma avaliação abrangente da qualidade do produto sob diferentes perspectivas.</p>
+<h2 id="4-verificacao-e-validacao-vv">4. Verificação e Validação (V&amp;V)</h2>
+<p>A verificação e validação são processos essenciais no desenvolvimento de produtos, sistemas ou softwares, desempenhando papéis cruciais na garantia de qualidade e na conformidade com requisitos específicos.</p>
+<p>A verificação refere-se à avaliação sistemática de um sistema ou componente para determinar se os resultados esperados estão em conformidade com os requisitos predeterminados. Deste modo, é o processo de checar se o produto está sendo construído corretamente, garantindo que cada etapa do desenvolvimento atenda às especificações e normas estabelecidas.</p>
+<p>Por outro lado, a validação está relacionada à confirmação de que o sistema atende às necessidades e expectativas do usuário final. É o processo de assegurar que o produto seja útil e eficaz para o propósito a que se destina. Assim, a validação garante que o produto construído é o produto certo, atendendo aos requisitos e proporcionando valor real aos usuários.</p>
+<p>Com isso, com o objetivo de alcançar os objetivos de qualidade propostos para o projeto, serão adotadas três técnicas de verificação e validadação:</p>
 <ul>
 <li>
-<p>:bulb: quando adicionar nova funcionalidade</p>
+<p><strong>Análise estática do código:</strong>: Serão utilizadas as funcionalidades do Sonar Cloud como ferramenta de análise estática de código, visando a obtenção de métricas mensuráveis. Essa ferramenta será capaz de identificar possíveis problemas no código e oferecer informações pertinentes à gestão da qualidade do projeto, promovendo uma contribuição valiosa para a tomada de decisões e a identificação de áreas a serem abordadas pela equipe.</p>
 </li>
 <li>
-<p>:pencil: quando escrever documentação</p>
+<p><strong>Testes automatizados:</strong> Serão empregados testes automatizados, abrangendo tanto os testes unitários quanto os de integração. Essa abordagem possibilita a validação não apenas dos cenários esperados, mas também das situações de erro, assegurando o correto funcionamento do software em diversas condições.</p>
 </li>
 <li>
-<p>:repeat: quando alguma alteração for feita</p>
-</li>
-<li>
-<p>:racehorse: refatoração ou otimização</p>
-</li>
-<li>
-<p>:bug: quando consertar um bug</p>
-</li>
-<li>
-<p>:fire: quando remover código ou arquivos</p>
+<p><strong>Validação com os POs:</strong> Reuniões semanais serão realizadas para validar o progresso e obter feedback. Deste modo, é possível realizar a <strong>validação</strong> da implementação.</p>
 </li>
 </ul>
-<h2 id="grupos">Grupos</h2>
-<p>Commits em grupo devem ter ser adicionado a mensagem do commit:</p>
-<p><em>Co-authored-by: 'user do membro' 'email do membro'</em></p>
-<h2 id="mensagem">Mensagem</h2>
-<p>A mensagem de commit deve ser clara e sucinta, respeitando o formato abaixo:</p>
+<h2 id="5-padroes-e-metricas">5. Padrões e métricas</h2>
+<p>A principal ISO e modelo utilizados no projeto são:</p>
 <ul>
-<li>
-<p>Escrita em português</p>
-</li>
-<li>
-<p>Verbos no gerúndio</p>
-</li>
-<li>
-<p>Deve possuir um tipo e o objetivo do commit</p>
-</li>
+<li>NBR - ISO/IEC 25010</li>
+<li>Modelo de Qualidade Q-Rapids</li>
 </ul>
-<h2 id="exemplos">Exemplos</h2>
-<h3 id="commit-de-um-unico-autor">Commit de um único autor</h3>
-<pre><code>:bulb: Adicionando crud de usuário
-</code></pre>
-<h3 id="commit-em-grupo">Commit em grupo</h3>
-<pre><code>:bug: Consertando crud de usuário
-Co-authored-by: CibeleG cibelegoudinho13@gmail.com
-</code></pre>
-<h2 id="historico-de-versao">Histórico de versão</h2>
+<h3 id="metricas">Métricas</h3>
+<p>As métricas definidas para o monitoramento de qualidade foram:</p>
 <table>
 <thead>
 <tr>
-<th>Data</th>
-<th>Versão</th>
+<th>Métrica</th>
 <th>Descrição</th>
-<th>Autor(es)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>09/04/2024</td>
-<td>1.0</td>
-<td>Criação do Documento</td>
-<td>Cibele Freitas Goudinho</td>
+<td>Reliability</td>
+<td>Quantidade de bugs presentes do código fonte</td>
+</tr>
+<tr>
+<td>Security Rating</td>
+<td>Avaliação de segurança de falhas e vulnerabilidades</td>
+</tr>
+<tr>
+<td>Maintainability</td>
+<td>Quantidade de mau cheiros de código</td>
+</tr>
+<tr>
+<td>Coverage</td>
+<td>Porcentagem de linhas de código cobertos por testes</td>
+</tr>
+<tr>
+<td>Duplications</td>
+<td>Densidade em porcentagem de código duplicado</td>
+</tr>
+<tr>
+<td>Size</td>
+<td>Quantidade de linhas de declarações, funções, classes, arquivos e comentários</td>
+</tr>
+<tr>
+<td>Complexity</td>
+<td>Quantidade de complexidade ciclomática e cognitiva</td>
+</tr>
+<tr>
+<td>Issues</td>
+<td>Quantidade de issues abertas, fechadas, reabertas, falsa positiva e "won't fix"</td>
+</tr>
+</tbody>
+</table>
+<h2 id="6-testes">6. Testes</h2>
+<p>O software é um produto da criatividade humana que envolve alta complexidade e, por isso, pode apresentar falhas e inconsistências. Para garantir que o software funcione conforme o esperado, existem os testes, que são processos que verificam a qualidade do software e evitam que os erros afetem o usuário final.</p>
+<p>Os testes podem ser classificados em diferentes tipos, de acordo com o nível de abstração do software:</p>
+<p>Testes de unidade: são testes que verificam uma parte isolada do código, geralmente uma classe ou um método.</p>
+<p>Testes de integração: são testes que verificam o funcionamento de uma funcionalidade ou uma transação completa, envolvendo a interação entre diferentes componentes do software.</p>
+<p>Testes de sistema: são testes que simulam o uso real do software por um usuário, verificando se o software atende aos requisitos e expectativas.</p>
+<h2 id="7-ferramentas">7. Ferramentas</h2>
+<ul>
+<li>
+<p><strong>Jest:</strong> Framework de testes para Javascript;</p>
+</li>
+<li>
+<p><strong>ESLint:</strong> Ferramenta para identificar e reportar padrões encontrados no código ECMAScript/JavaScript, com o objetivo de tornar o código mais consistente e evitar bugs.</p>
+</li>
+<li>
+<p><strong>SonarCloud:</strong> Ferramenta de análise de código que verifica a qualidade do código conforme as métricas e regras estabelecidas.</p>
+</li>
+</ul>
+<h2 id="8-controle-de-codigo">8. Controle de código</h2>
+<p>Para garantir a qualidade dos procedimentos, usamos uma mistura de tarefas automáticas e manuais. As tarefas automáticas envolvem documentação, controle de versão, código, commits e testes, que são feitos por ferramentas e sistemas que contribuem para a qualidade do software. Essas tarefas serão realizadas com o auxílio de ferramentas e sistemas, para a garantia da qualidade do software.</p>
+<h2 id="9-historico-de-versao">9. Histórico de versão</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Data</strong></th>
+<th><strong>Descrição</strong></th>
+<th><strong>Autore(es)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16/04/2024</td>
+<td>Criação do documento</td>
+<td>Júlia Farias</td>
 </tr>
 </tbody>
 </table></div>
