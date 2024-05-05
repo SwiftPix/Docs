@@ -2,8 +2,8 @@ site_name: Fintech
 theme:
   name: material
   palette:
-    primary: '#00A896'
-    accent: '#D9D9D9'
+    primary: '#42F57B'
+    accent: '#00A896'
   font:
     text: Roboto
   language: pt-BR
