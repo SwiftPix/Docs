@@ -9,8 +9,8 @@ theme:
     font:
         text: Roboto
     language: pt-BR
-    repo_url: https://github.com/CibeleG/EPS-2024.1-Fintech-PIX
-    repo_name: EPS-2024.1-Fintech-PIX
+    repo_url: https://github.com/SwiftPix/Docs
+    repo_name: SwiftPix/Docs
     icon:
         repo: fontawesome/brands/gitlab
     # logo: assets/logo.png
