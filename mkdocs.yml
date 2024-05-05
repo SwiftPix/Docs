@@ -2,8 +2,8 @@ site_name: Fintech
 theme:
   name: material
   palette:
-    primary: yellow
-    accent: orange
+    primary: '#00A896'
+    accent: '#D9D9D9'
   font:
     text: Roboto
   language: pt-BR
@@ -41,6 +41,7 @@ nav:
   - Planos:
       - Plano de custos: plans/costs_plan.md
       - Plano de riscos: plans/risk_plan.md
+      - Plano de testes: plans/tests_plan.md
   - Definições do Projeto:
       - Metodologias: projectDescription/index.md
       - Plano de qualidade: plans/quality_plan.md
