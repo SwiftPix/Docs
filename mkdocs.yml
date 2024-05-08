@@ -53,8 +53,7 @@ nav:
       - Dinâmicas: lean/dynamics.md
       - Lean: lean/index.md
   - Arquitetura:
-      - Documento de arquitetura: architecture/index.md
-      - Documento de arquitetura DevOps: architecture/architecture_devops.md
+      - Documento de arquitetura: architecture/architecture.md
   - Relatório de Encerramento do Projeto: reports/final_report.md
 
 # Extra CSS
