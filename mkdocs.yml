@@ -33,6 +33,7 @@ nav:
           - Semana 1: reports/week1.md
           - Semana 2: reports/week2.md
           - Semana 3: reports/week3.md
+          - Semana 4: reports/week4.md
   - Planejamento:
       - Planejamento: planning.md
       - Cronograma: schedule.md
@@ -47,7 +48,7 @@ nav:
       - Plano de qualidade: plans/quality_plan.md
       - Plano de comunicação: plans/communication_plan.md
   - Gestão de Projeto:
-      - Modelo de gestão: projectManagment/index.md
+      - Modelo de gestão: projectManagment/roadmap.md
       - EAP: projectManagment/eap.md
   - Lean Inception:
       - Dinâmicas: lean/dynamics.md
