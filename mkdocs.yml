@@ -40,22 +40,20 @@ nav:
       - Quadro de conhecimento: projectControl/knowledge_board.md
       - Quadro de disponibilidade: projectControl/schedule_board.md
   - Planos:
-      - Plano de comunicação: plans/communication_plan.md
       - Plano de custos: plans/costs_plan.md
       - Plano de riscos: plans/risk_plan.md
       - Plano de testes: plans/tests_plan.md
   - Definições do Projeto:
       - Metodologias: projectDescription/index.md
-      - Plano de qualidade: plans/quality_plan.md
-      - Plano de comunicação: plans/communication_plan.md
   - Gestão de Projeto:
-      - Modelo de gestão: projectManagment/roadmap.md
       - EAP: projectManagment/eap.md
+      - Plano de comunicação: plans/communication_plan.md
   - Lean Inception:
       - Dinâmicas: lean/dynamics.md
       - Lean: lean/index.md
   - Arquitetura:
       - Documento de arquitetura: architecture/architecture.md
+      - DevOps: architecture/devops.md
   - Relatório de Encerramento do Projeto: reports/final_report.md
 
 # Extra CSS
