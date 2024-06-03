@@ -2,10 +2,11 @@ site_name: SwiftPix
 theme:
   name: material
   palette:
-    primary: '#42F57B'
-    accent: '#00A896'
+    primary: '#00A896'
+    accent: '#42F57B'
   font:
     text: Roboto
+    logo: assets/styleGuide/Logo.png
   language: pt-BR
   repo_url: https://github.com/SwiftPix/Docs
   repo_name: Docs
@@ -35,7 +36,6 @@ nav:
           - Semana 3: reports/week3.md
           - Semana 4: reports/week4.md
   - Planejamento:
-      - Planejamento: planning.md
       - Cronograma: schedule.md
       - Quadro de conhecimento: projectControl/knowledge_board.md
       - Quadro de disponibilidade: projectControl/schedule_board.md
