@@ -1,4 +1,4 @@
-site_name: Fintech
+site_name: SwiftPix
 theme:
   name: material
   palette:
@@ -40,6 +40,7 @@ nav:
       - Quadro de conhecimento: projectControl/knowledge_board.md
       - Quadro de disponibilidade: projectControl/schedule_board.md
   - Planos:
+      - Plano de comunicação: plans/communication_plan.md
       - Plano de custos: plans/costs_plan.md
       - Plano de riscos: plans/risk_plan.md
       - Plano de testes: plans/tests_plan.md
