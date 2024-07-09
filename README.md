@@ -10,7 +10,7 @@
 
 ## Objetivo
 
-Aprimoramento da experiência de transferência por PIX
+Aprimoramento da experiência de transferência por PIX 
 
 ## Funcionalidades
 Esse projeto irá realiar transferências por PIX entre diferentes moedas, realizando a conversão com a cotação do horário da transferência. Também atráves da geolocalização do usuário ele irá trocar automaticamente a moeda base para conversão. 
@@ -26,7 +26,7 @@ Terá gerência de dados bancários do usuário. E por último, pagamento por ap
 
 ## Diferenciais
 
-Conversão de moeda automática, ativação da funcionalidade por aproximação, notificação de cotação. 
+Conversão de moeda automática de acordo com a geolocalização do usuário, reconhecimento facial, facilidade para integração com a API do BACEN. 
 
 ## Ferramentas
 
