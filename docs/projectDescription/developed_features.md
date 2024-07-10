@@ -1,6 +1,6 @@
 ## Atualização sobre o Desenvolvimento das Funcionalidades do Produto
 
-Temos o prazer de informar que nossa equipe de desenvolvimento conseguiu implementar com sucesso a maioria das funcionalidades previstas no nosso backlog de produto. Este progresso significativo reflete o comprometimento e a expertise de nossa equipe, que trabalhou incansavelmente para entregar soluções robustas e eficientes que atendem às necessidades dos nossos usuários.
+Informamos que nossa equipe de desenvolvimento conseguiu implementar com sucesso a maioria das funcionalidades previstas no nosso backlog de produto. Este progresso  reflete o comprometimento  da nossa equipe, que trabalhou  para entregar soluções robustas e eficientes que atendem às necessidades dos nossos usuários.
 
 Até o momento, conseguimos desenvolver e aperfeiçoar diversas funcionalidades críticas para a gestão de contas e transações PIX, incluindo o gerenciamento completo de contas, cadastro e gerenciamento de chaves PIX, e a implementação de transações seguras e personalizáveis.
 
