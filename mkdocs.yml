@@ -45,9 +45,14 @@ nav:
       - Plano de testes: plans/tests_plan.md
   - Definições do Projeto:
       - Metodologias: projectDescription/index.md
+      - Sebrae: projectDescription/SEBRAE.md
+      - Serviços Desenvolvidos: projectDescription/developed_features.md
+      - Serviços Consumidos: projectDescription/consumed_features.md
   - Gestão de Projeto:
       - EAP: projectManagment/eap.md
       - Plano de comunicação: plans/communication_plan.md
+      - Backlog: projectManagment/backlog.md
+      - Roadmap: projectManagment/roadmap.md
   - Lean Inception:
       - Dinâmicas: lean/dynamics.md
       - Lean: lean/index.md
