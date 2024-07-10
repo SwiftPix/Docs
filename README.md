@@ -1,12 +1,12 @@
 # EPS-2024.1-SwiftPix
 
 ## Equipe
-| Nome | GitHub | Email | Função |
+| Nome | GitHub | Email | Nota de participação |
 | ---- | ---- | ---- | ---- |
-| Cibele Freitas Goudinho | CibeleG | cibelegoudinho13@gmail.com | - |
-| Guilherme Daniel Fernandes da Silva| guilhermedf | 180018019@aluno.unb.br | - |
-| Júlia Farias Sousa | julisous | julia.farias840@gmail.com | - |
-| Yuri Alves Bacarias | yuriAlves5 | 180078640@aluno.unb.br | - |
+| Cibele Freitas Goudinho | CibeleG | cibelegoudinho13@gmail.com | 10 |
+| Guilherme Daniel Fernandes da Silva| guilhermedf | 180018019@aluno.unb.br | 10 |
+| Júlia Farias Sousa | julisous | julia.farias840@gmail.com | 10 |
+| Yuri Alves Bacarias | yuriAlves5 | 180078640@aluno.unb.br | 10 |
 
 ## Objetivo
 
